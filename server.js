@@ -3,6 +3,7 @@ const client = require("./twitterClient");
 const schedule = require("node-schedule");
 const url = "https://programming-quotes-api.herokuapp.com/quotes/random";
 
+console.log("server started");
 const tweet = async () => {
   try {
     const res = await axios.get(url);
