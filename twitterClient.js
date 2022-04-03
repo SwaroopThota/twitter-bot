@@ -7,4 +7,4 @@ const client = new TwitterApi({
   accessToken: process.env.ACCESS_TOKEN,
   accessSecret: process.env.ACCESS_SECRET,
 });
-module.exports = client;
+module.exports = client.readWrite;
