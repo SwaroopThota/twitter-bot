@@ -15,6 +15,6 @@ const tweet = async () => {
   }
 };
 
-schedule.scheduleJob("0 0 * * *", () => {
+schedule.scheduleJob("* * * * *", () => {
   tweet();
 });
